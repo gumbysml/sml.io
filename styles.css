@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.player iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.video-item {
+  background: #222;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.video-item:hover {
+  background: #333;
+}
