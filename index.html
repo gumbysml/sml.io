@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>YouTube Playlist Viewer</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SML New Channel</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>YouTube Video Player</h1>
-    <div class="player">
-      <iframe id="videoPlayer" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+  <header>
+    <h1>SML New Channel</h1>
+    <p>Watch your favorite SML videos all in one place!</p>
+  </header>
+
+  <main>
+    <div class="player-container">
+      <iframe id="videoPlayer" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="video-list" id="videoList"></div>
-  </div>
+    <div class="video-grid" id="videoList"></div>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ for SML Fans</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
